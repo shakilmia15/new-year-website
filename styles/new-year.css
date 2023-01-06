@@ -6,7 +6,7 @@
 .banner {
     text-align: right;
     padding: 200px 200px;
-    background-image: url("/images/banner/banner1.png");
+    background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -124,7 +124,7 @@ main {
     margin-top: 110px;
     margin-left: 100px;
     margin-right: 100px;
-    background-image: url("/images/gradient2.png");
+    background-image: url("../images/gradient2.png");
     background-repeat: no-repeat;
     height: 41vh;
     border: 1px solid coral;
