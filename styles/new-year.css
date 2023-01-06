@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+}
+
+/* banner styles */
+.banner {
+    text-align: right;
+    padding: 200px 200px;
+    background-image: url("/images/banner/banner1.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.banner-title {
+    color: rgb(36, 34, 34);
+    font-weight: 600;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: rgb(68, 67, 67);
+    margin-bottom: 32px;
+}
+
+.contact-btn {
+    color: #FFFFFF;
+    background: #F15B22;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* previous year section styles */
+.previous-year {
+    display: flex;
+    justify-content: space-around;
+}
+
+.previous-images {
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.My-previous-year-failures {
+    padding-top: 300px;
+    padding-left: 70px;
+    padding-right: 150px;
+
+}
+
+.previous-year-title {
+    color: rgb(21, 20, 20);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.previous-year-description {
+    color: rgb(68, 67, 67);
+    margin-top: 24px;
+}
+
+.previous-year-list {
+    color: #444343;
+    margin-top: 16px;
+    list-style: none;
+
+}
+
+.soymbole-color {
+    color: rgb(117, 229, 205);
+}
+
+/* my plans styles */
+.my-plan {
+    margin-top: 100px;
+}
+
+.plans-title {
+    text-align: center;
+    color: #151414;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.plan-list {
+    display: flex;
+    text-align: center;
+    gap: 140px;
+    margin-left: 40px;
+}
+
+.plan-list-title {
+    color: #151414;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.plan-list-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* This is my mindset styles */
+.mindset {
+    margin-top: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url("/images/gradient2.png");
+    background-repeat: no-repeat;
+    height: 41vh;
+    border: 1px solid coral;
+    border: none;
+    border-radius: 5px;
+}
+.positive-mindset{
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.mindset-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-bottom: 24px;
+}
+.call-btn{
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 110px;
+    height: 45px;
+    border: 0 solid chocolate;
+    border-radius: 3px;
+}
