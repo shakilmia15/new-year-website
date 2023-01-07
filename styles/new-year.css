@@ -2,6 +2,12 @@
     margin: 0;
 }
 
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* banner styles */
 .banner {
     text-align: right;
@@ -35,12 +41,6 @@
     border-radius: 5px;
 }
 
-/* main section */
-main {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 /* previous year section styles */
 .previous-year {
     display: flex;
@@ -69,17 +69,18 @@ main {
 .previous-year-description {
     color: rgb(68, 67, 67);
     margin-top: 24px;
+    margin-bottom: 16px;
 }
 
-.previous-year-list {
+li {
     color: #444343;
-    margin-top: 16px;
+    ;
     list-style: none;
-
 }
 
 .soymbole-color {
     color: rgb(117, 229, 205);
+
 }
 
 /* my plans styles */
@@ -124,14 +125,15 @@ main {
     margin-top: 110px;
     margin-left: 100px;
     margin-right: 100px;
-    background-image: url("../images/gradient2.png");
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url("../images/watch.png");
     background-repeat: no-repeat;
     height: 41vh;
     border: 1px solid coral;
     border: none;
     border-radius: 5px;
 }
-.positive-mindset{
+
+.positive-mindset {
     padding-left: 60px;
     padding-top: 70px;
 }
@@ -143,7 +145,8 @@ main {
     font-family: sans-serif;
     margin-bottom: 24px;
 }
-.call-btn{
+
+.call-btn {
     color: #F15B22;
     font-weight: 600;
     font-size: 15px;
@@ -152,4 +155,91 @@ main {
     height: 45px;
     border: 0 solid chocolate;
     border-radius: 3px;
+}
+
+/* website footer styles */
+
+/* footer left side styles */
+
+.footer {
+    background: #151414;
+    margin-top: 110px;
+    height: 50vh;
+    display: flex;
+    gap: 300px;
+    padding-top: 120px;
+    padding-left: 190px;
+    padding-right: 170px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    margin-bottom: 16px;
+    font-size: small;
+}
+
+.footer-description1 {
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.footer-description2 {
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.footer-img {
+    display: flex;
+    margin-top: 32px;
+    gap: 18px;
+}
+
+/* footer right side styles */
+
+.Subscribe {
+    margin-right: 70px;
+}
+
+.Subscribe-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+input {
+    background: none;
+    font-size: 17px;
+    padding: 15px 20px;
+    border: 1px solid #F3F3F3;
+    border-radius: 7px;
+}
+::-webkit-input-placeholder{
+    color: #F3F3F3;
+}
+
+.Subscribe-btn {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 140px;
+    height: 55px;
+    margin-top: 16px;
+    border: 0 solid chocolate;
+    border-radius: 5px;
 }
